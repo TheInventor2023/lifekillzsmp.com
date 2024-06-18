@@ -1,0 +1,54 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.message-card {
+    margin-bottom: 20px;
+}
+
+.message-card p {
+    margin: 0;
+}
+
+.thread-card {
+    margin-bottom: 20px;
+}
+
+.comment-card {
+    margin-top: 10px;
+}
+
+.editor {
+    margin-bottom: 20px;
+}
+
+#userActions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#registerForm, #loginForm, #resetPasswordForm {
+    width: 100%;
+    max-width: 400px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
